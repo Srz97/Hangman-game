@@ -1,7 +1,6 @@
- Hangman is an enjoyable game! It's all about guessing a secret word by figuring out its letters but be cautious! Every wrong letter draws the hangman one step closer to his fate. 
+ Hangman is an enjoyable game against the computer! This is where you'll try to guess a secret word, letter by letter, while the computer tries to do the same be cautious Every wrong letter draws the  hangman one step closer to his fate. 
  
- image
- 
+ image 
  
  ## purpose 
  
