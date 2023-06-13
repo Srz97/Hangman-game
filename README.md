@@ -1,9 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome Srz97,
-
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
+ Hangman is an enjoyable game! It's all about guessing a secret word by figuring out its letters but be cautious! Every wrong letter draws the hangman one step closer to his fate. 
+ 
+ image
+ 
+ 
+ 
+ 
 ## Reminders
 
 * Your code must be placed in the `run.py` file
