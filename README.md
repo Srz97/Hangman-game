@@ -17,7 +17,7 @@ Education: Hangman can be used as an educational tool to enhance language skills
 ### When you select to play 
 1. You'll see a series of dashes on the screen, representing the letters of the word.
 2. Guess one letter at a time by clicking or tapping on the corresponding letter on the on-screen or keyboard.
-3. If the guessed letter is in the word,For example, if the word is "apple" and you guess "p," the dashes will update to show "_ _ _ p _".
+3. If the guessed letter is in the word,For example, if the word is "code" and you guess "c," the dashes will update to show "c _ _ _".
 4. If the guessed letter is not in the word, you'll receive a notification, and one part of the hangman figure will be drawn. Be careful! You have a limited number of incorrect guesses before the hangman figure is completed.
 6. Continue guessing letters until you either guess the entire word correctly or the hangman figure is fully drawn.
 7. If you guess the word correctly before the hangman figure is completed, you win!
