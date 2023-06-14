@@ -2,7 +2,7 @@ Online Hangman is an enjoyable game against the computer! This is where you'll t
  
  image 
  
- ## purpose 
+ ## Purpose 
  
 Entertainment: Hangman is primarily created as a source of fun and entertainment. It can be an engaging game that challenges players' word-guessing abilities and provides a recreational activity for individuals or groups.
 
