@@ -1,17 +1,4 @@
-# import words from words files
-import random
-from words import words
 
-guess_word = random.choices(words) 
-
-print(guess_word)
-
-import random
-from words import words
-
-guess_word = random.choices(words) 
-
-print(guess_word)
 
 def display_welcome():
     print("Welcome to the thrilling world of online hangman!")
@@ -26,3 +13,21 @@ def get_player_name():
 
 display_welcome()
 get_player_name()
+
+
+# Import words from words files
+import random
+from words import words
+
+def select_random_word():
+    word = random.choice(words)
+    return word
+
+# Hide the Random Number 
+def hide_word(word):
+    hidden_word = "_" * len(word)
+    print("Guess the word: " + hidden_word)
+
+random_word = select_random_word()
+hidden_word = hide_word(random_word)
+print(hidden_word)
