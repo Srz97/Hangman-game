@@ -13,14 +13,17 @@ def get_player_name():
     else:
         print("Invalid input. Please enter alphabetic characters only.")
 
+# Select a random word from the 'words' list
 def select_random_word():
     word = random.choice(words)
     return word
 
+# Create a string of underscores with the same length as the 'word'
 def hide_word(word):
     hidden_word = "_" * len(word)
     return hidden_word
 
+# Various stages of the hangman drawing
 def draw_hangman(incorrect_guesses):
     stages = [
         """
@@ -90,6 +93,7 @@ def draw_hangman(incorrect_guesses):
 
     print(stages[incorrect_guesses])
 
+# Main game loop
 def play_game():
     random_word = select_random_word()
     hidden_word = hide_word(random_word)
@@ -99,8 +103,9 @@ def play_game():
     incorrect_guesses = 0
     max_incorrect_guesses = 6
 
+    #Continue the game until max incorrect guesses or word is fully guessed
     while incorrect_guesses < max_incorrect_guesses and "_" in hidden_word:
-        guess = input("Guess a letter: ").lower()
+        guess = input("Guess a letter:\n ").lower()
 
         if guess in guessed_letters:
             print("You've already guessed that letter. Try again.")
@@ -124,12 +129,13 @@ def play_game():
 
         print("Guess the word: " + hidden_word)
 
+    # Game over messages and option to replay
     if "_" not in hidden_word:
         print("Congratulations! You've guessed the word correctly.")
-        replay = input("Would you like to challenge again? (y/n): ").lower()
+        replay = input("Would you like to challenge again? (y/n):\n ").lower()
         while replay not in ["y", "n"]:
             print("Invalid input. Please enter 'y' for yes or 'n' for no.")
-            replay = input("Would you like to challenge again? (y/n): ").lower()
+            replay = input("Would you like to challenge again? (y/n):\n ").lower()
 
         if replay == "y":
             play_game()
@@ -137,10 +143,10 @@ def play_game():
             print("Thank you for playing. Have a nice day!")
     else:
         print("You lost! The word was:", random_word)
-        retry = input("Would you like to give it another try? (y/n): ").lower()
+        retry = input("Would you like to give it another try? (y/n):\n ").lower()
         while retry not in ["y", "n"]:
             print("Invalid input. Please enter 'y' for yes or 'n' for no.")
-            retry = input("Would you like to give it another try? (y/n): ").lower()
+            retry = input("Would you like to give it another try? (y/n):\n ").lower()
 
         if retry == "y":
             play_game()
