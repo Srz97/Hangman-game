@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hangman-game-390521",
+  "private_key_id": "aebc494c496909a97c74a6b5ede6df26aca3b26e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCq99SENYt6cwq1\n02VV7lTVeY9Xy7DoyelFk9SlckCWQL0rtVnPo8enicLIsQxOqXikYppQXILlA509\n1i/YZDwFOrLiPsPGhCdASIFRLCs0HGwOa+05IlJg2Cq0SN4da/UbrM7pi3tIRWFm\nhgLT1/4rTxj2t4JV6wuLswoG9u27yJHqLnvb/9blsxT7whlB/13skl7TEq85QqRq\nukfubqmFJHQMJ8SmV11iuNI94PwPwtlk7+inX7wrK84k2ZPnyou1pPV6xWLTAjp8\nyljkqcPfv9ZkKJqacLJqCJGSI1+tuXOnxdDKrL7METXvrPioewfXt4AZNq4klPOi\nuCATAJR9AgMBAAECggEABoKGGkb3/wswhMteQAHMQ6OhCw4DuAgbedgplZIj4O9p\nSefaGgSptm38V3bHBJtshKUyLINVQuyauQ8ghmwMoq4BP971cT04ybhpCiL1KIMO\nNJS0n+4NYR13WiLYfZojJ1uytjmm0ac9+0Yjh0Ghw9rmFQYtmuFmsLn6FK6kJI1W\n3aGjQzudyEl42GTKCDHwsHn4gJpGjzhqeXjb3oBpN+o1Qu11BAbvxyBdh263p+4h\nH7tTWT5s1NXn4jf3Y51XlxW04VH+/mtaaD82hXv6egGncNLCtjHUpTQa0JOnh9pE\nzSt4siZCWqT+4pwI04V5yDT9yWEHXGMeDwgJFHv+8QKBgQDStMte8BFJrZ/Dzj+i\nDjZb5Lmj1AvRK00xUAx+12oXSWJKV/CVcGipyOdDkkBBj4Z/EUoLRMAfiyyNfp7v\nR0dEAbriPJ2M8h7JOT3XAHiYGnS91cgQVg2nBhGViwKOEuf2M7F6PfES33SnzIcI\nlZDUu0RJkDkgnOkR+N2tyw13zQKBgQDPuDzmt5KzFX6IocD3bAGdPOTUWFOuQeez\nLpS4EOkoWtDkUJsTqtqA0DODUivhUuwhx+B38bStagUcnG4hmLwyCd6spLaw+yh8\nIvBtIZl/nvI50pppzXdDIGKHc7q5W+sPuYVK9BP9smQg9KiMLEqggKi6/4hl9xn0\nnCO78iB/cQKBgHbjEATnS7nYv1aJ3xmfD0jWS3CGyowg9JMoaYSAIxo0i8MKz3Ji\nVIvIEcTslljnlKnJpY+qIQUrT94eXasA+tMCbuIL9ZF7Y6eCJsRTPbgE5W3fW9zr\n0RQ2tmE8aBqlzD/8dt1UaduOPZIYMvDDA08kwqkHOVSPdGpxkxLmiRjZAoGAS9ig\nFDaPkGiWzVkS1sVPSZTEkWy3EXfrHJgzoYo7OIsAn313QpUuN77OMHM+poXaxvLu\n2Z0eNfvyZeIQrJ/SiArmje+O7cynmbxAQfj0zY7CL67gxyVJGO+oSoFNewU/LXy2\nWQoKiqYqvYXYTWaW0UhpU+6eZWz2w0SIH8Zna2ECgYBojlnqzKOQbfpoRX/WnKLM\nDbDEJC6S3ZcZJoLTRRYwyV6rFHXH9UmnsCp0yk5Nd8BQ9iuVRw49hNtTAVuAe6VO\nBtbpyLU1nLhalHPeSseUOYaDwrjLFTz3FTmh9gydiLjRXEOOVNKa35BDdNLF3HTS\nm7k8mFIc35NXmDUt9mwgRw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "srz97-931@hangman-game-390521.iam.gserviceaccount.com",
+  "client_id": "103181654439110552746",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/srz97-931%40hangman-game-390521.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

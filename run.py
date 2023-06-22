@@ -1,3 +1,4 @@
+# Import words 
 import random
 from words import words
 
