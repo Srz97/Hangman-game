@@ -24,7 +24,7 @@ Education: Hangman can be used as an educational tool to enhance language skills
 8. If the hangman figure is completed before you guess the word, you lose.
 9. After the game ends, you may have the option to play again and try to beat your previous score.
 
-
+ <img src="https://srz97.github.io/hangamn-game/assets/images/image_two.png">
 
 ## Creating the Heroku app
 
