@@ -34,11 +34,14 @@ Education: Hangman can be used as an educational tool to enhance language skills
 
  ## Testing
 
-* I have manually tested this project by doing the following:
+ I have manually tested this project by doing the following:
 * Passed the code through a PEP8 and confirmed there are no problems.
 Tested in my local terminal and the Code Institute Heroku terminal.
 
+## Bugs
 
+During the deployment process from GitHub to Heroku, I encountered a bug that caused the deployment to fail. The specific error message I received was: "<insert error message>". This issue prevented my application from being successfully deployed on Heroku.
+After investigation, I realized that the 'nodels.js' module was not selected, causing the issue. Please make sure to include 'nodels.js' when deploying the code to Heroku to ensure proper functionality.
 
 You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
