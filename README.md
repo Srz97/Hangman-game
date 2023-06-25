@@ -26,12 +26,19 @@ Education: Hangman can be used as an educational tool to enhance language skills
 
  <img src="https://srz97.github.io/hangamn-game/assets/images/image_two.png">
 
-## Creating the Heroku app
+### Technologies Used
+* * Python
+* * Github
+* * Gitpod
+* * Heroku
+ 
+    ## Testing
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* I have manually tested this project by doing the following:
+* Passed the code through a PEP8 and confirmed there are no problems.
+Tested in my local terminal and the Code Institute Heroku terminal.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+
 
 You must then create a _Config Var_ called `PORT`. Set this to `8000`
 
