@@ -31,8 +31,8 @@ Education: Hangman can be used as an educational tool to enhance language skills
 * * Github
 * * Gitpod
 * * Heroku
- 
-    ## Testing
+
+ ## Testing
 
 * I have manually tested this project by doing the following:
 * Passed the code through a PEP8 and confirmed there are no problems.
