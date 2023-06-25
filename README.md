@@ -33,7 +33,8 @@ Education: Hangman can be used as an educational tool to enhance language skills
 * * Heroku
 
  ## Testing
-
+ <img src="https://srz97.github.io/hangamn-game/assets/images/image_three.png">
+ 
  I have manually tested this project by doing the following:
 * Passed the code through a PEP8 and confirmed there are no problems.
 Tested in my local terminal and the Code Institute Heroku terminal.
@@ -48,10 +49,10 @@ You must then create a _Config Var_ called `PORT`. Set this to `8000`
 If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
 Connect your GitHub repository and deploy as normal.
-
+ <img src="https://srz97.github.io/hangamn-game/assets/images/image_four.png">
 ## Constraints
-
+ <img src="https://srz97.github.io/hangamn-game/assets/images/image_five.png">
 The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
+ <img src="https://srz97.github.io/hangamn-game/assets/images/image_six.png">
 -----
 Happy coding!
