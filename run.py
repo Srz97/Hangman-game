@@ -1,4 +1,4 @@
-# Import words 
+# Import words
 import random
 from words import words
 
@@ -7,6 +7,7 @@ def display_welcome():
     print("Welcome to the thrilling world of online hangman!")
     print("Alright, before we proceed, could you please grace me with your name?")
 
+
 def get_player_name():
     name = input("Enter your name: ")
     if name.isalpha():
@@ -14,15 +15,18 @@ def get_player_name():
     else:
         print("Invalid input. Please enter alphabetic characters only.")
 
+
 # Select a random word from the 'words' list
 def select_random_word():
     word = random.choice(words)
     return word
 
+
 # Create a string of underscores with the same length as the 'word'
 def hide_word(word):
     hidden_word = "_" * len(word)
     return hidden_word
+
 
 # Various stages of the hangman drawing
 def draw_hangman(incorrect_guesses):
@@ -94,6 +98,7 @@ def draw_hangman(incorrect_guesses):
 
     print(stages[incorrect_guesses])
 
+
 # Main game loop
 def play_game():
     random_word = select_random_word()
@@ -104,9 +109,13 @@ def play_game():
     incorrect_guesses = 0
     max_incorrect_guesses = 6
 
-    #Continue the game until max incorrect guesses or word is fully guessed
+    # Continue the game until max incorrect guesses or word is fully guessed
     while incorrect_guesses < max_incorrect_guesses and "_" in hidden_word:
         guess = input("Guess a letter:\n ").lower()
+
+        if not guess.isalpha() or len(guess) != 1:
+            print("Invalid input. Please enter a single alphabetic character.")
+            continue
 
         if guess in guessed_letters:
             print("You've already guessed that letter. Try again.")
@@ -153,6 +162,7 @@ def play_game():
             play_game()
         else:
             print("Thank you for playing. Have a nice day!")
+
 
 display_welcome()
 get_player_name()
