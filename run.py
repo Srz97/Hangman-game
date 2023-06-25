@@ -4,7 +4,7 @@ from words import words
 
 
 def display_welcome():
-    print("Welcome to the thrilling world of online hangman!")
+    print("Welcome to the thrilling world of online hangman!\n")
     print("Alright, before we proceed, could you please grace me with your name?")
 
 
