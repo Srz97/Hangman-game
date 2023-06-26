@@ -38,11 +38,14 @@ Education: Hangman can be used as an educational tool to enhance language skills
  
   
 ![Image One](assets/images/image_three.png)
+* The welcome message and name requirement are displayed.
+* the option to view the rules or proceed to play the game
 ![Image One](assets/images/image_six.png)
 ![Image One](assets/images/image_five.png)
 ![Image One](assets/images/image_four.png)
-
-
+![Image One](assets/images/image_seven.png)
+![Image One](assets/images/image_eight.png)
+![Image One](assets/images/image_nine.png)
 
 
 
