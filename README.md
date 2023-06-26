@@ -73,4 +73,12 @@ After investigation, I realized that the 'nodels.js' module was not selected, ca
 
 I encountered a bug while trying to display images in the README.md file. The images were not rendering correctly when using the Markdown syntax.Images were not being shown.After researching and reviewing the Markdown syntax, I discovered that the correct syntax for embedding images in Markdown is using the following format.
 
+## Deployment
 
+1. Sign up: Create an account on Heroku (if you don't have one already).
+2. Create a new app: On Heroku, create a new app by clicking the "New" button and giving it a unique name.
+3. Connect to GitHub: In the "Deploy" tab of your Heroku app, select the option to connect to your GitHub repository. Search for your repository and connect it to your Heroku app.
+4. Configure deployment: Choose the branch you want to deploy from and configure any additional settings, such as automatic deployments on new commits.
+5. Deploy: Click the "Deploy Branch" button to start the deployment process. Heroku will fetch the code from your GitHub repository and build your app.
+6. Monitor deployment: Heroku will display the deployment progress, including any build errors or warnings. Make sure to review the logs and resolve any issues if necessary.
+7. Open your app: Once the deployment is successful, you can open your app by clicking the "Open app" button in Heroku or using the provided URL.
