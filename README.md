@@ -12,6 +12,7 @@ Education: Hangman can be used as an educational tool to enhance language skills
 
 * The game begin by greeting the user with a friendly message.
 * Before the Game procceds it requests the user for their name.
+* After the name it gives you the option of havin a look at the rule
 * You are then provided with two options either to have a look at the rule book or  to start the game.
 * You are then provided with two options either to have a look at the rule book or  to start the game.
 ### When you select to play 
@@ -24,6 +25,9 @@ Education: Hangman can be used as an educational tool to enhance language skills
 8. If the hangman figure is completed before you guess the word, you lose.
 9. After the game ends, you may have the option to play again and try to beat your previous score.
 
+   
+## Visual Representations
+
 ![Image One](assets/images/image_one.png)
 
 ### Technologies Used
@@ -31,10 +35,17 @@ Education: Hangman can be used as an educational tool to enhance language skills
 * * Github
 * * Gitpod
 * * Heroku
+ 
+  
 ![Image One](assets/images/image_three.png)
-![Image One](assets/images/image_four.png)
-![Image One](assets/images/image_five.png)
 ![Image One](assets/images/image_six.png)
+![Image One](assets/images/image_five.png)
+![Image One](assets/images/image_four.png)
+
+
+
+
+
  ## Testing
 
  
@@ -49,9 +60,4 @@ After investigation, I realized that the 'nodels.js' module was not selected, ca
 
 I encountered a bug while trying to display images in the README.md file. The images were not rendering correctly when using the Markdown syntax.Images were not being shown.After researching and reviewing the Markdown syntax, I discovered that the correct syntax for embedding images in Markdown is using the following format.
 
-## Constraints
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
