@@ -39,14 +39,24 @@ Education: Hangman can be used as an educational tool to enhance language skills
   
 ![Image One](assets/images/image_three.png)
 * The welcome message and name requirement are displayed.
-* the option to view the rules or proceed to play the game
+  
+ ![Image One](assets/images/image_eight.png)
+* The option to view the rules or proceed to play the game
+  
 ![Image One](assets/images/image_six.png)
-![Image One](assets/images/image_five.png)
-![Image One](assets/images/image_four.png)
-![Image One](assets/images/image_seven.png)
+* A letter input is needed to determine the possible word
+  
 ![Image One](assets/images/image_eight.png)
-![Image One](assets/images/image_nine.png)
+* If the input letter is not alphabetic then invalid data message.
+  
+![Image One](assets/images/image_five.png)
+* The picture of Hangman is drawn upon every incorrect guess.
+  
+![Image One](assets/images/image_four.png)
+* If you fail to attempt the word in 6 guess you lose.
 
+![Image One](assets/images/image_nine.png)
+* If you are smart to guess you Win.
 
 
  ## Testing
