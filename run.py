@@ -99,6 +99,17 @@ def draw_hangman(incorrect_guesses):
     print(stages[incorrect_guesses])
 
 
+# Show the game rules
+def show_rules():
+    print("Hangman Rules:")
+    print("1. The computer will randomly select a word for you to guess.")
+    print("2. You can guess one letter at a time.")
+    print("3. If the letter you guessed is in the word, it will be revealed.")
+    print("4. If the letter you guessed is not in the word, you will lose a life.")
+    print("5. You have a total of 6 lives.")
+    print("6. Your goal is to guess the word before you run out of lives.\n")
+
+
 # Main game loop
 def play_game():
     random_word = select_random_word()
@@ -166,4 +177,13 @@ def play_game():
 
 display_welcome()
 get_player_name()
+
+show_rules_option = input("Would you like to see the rules? (y/n):\n ").lower()
+while show_rules_option not in ["y", "n"]:
+    print("Invalid input. Please enter 'y' for yes or 'n' for no.")
+    show_rules_option = input("Would you like to see the rules? (y/n):\n ").lower()
+
+if show_rules_option == "y":
+    show_rules()
+
 play_game()
