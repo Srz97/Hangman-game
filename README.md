@@ -84,3 +84,8 @@ I encountered a bug while trying to display images in the README.md file. The im
 5. Deploy: Click the "Deploy Branch" button to start the deployment process. Heroku will fetch the code from your GitHub repository and build your app.
 6. Monitor deployment: Heroku will display the deployment progress, including any build errors or warnings. Make sure to review the logs and resolve any issues if necessary.
 7. Open your app: Once the deployment is successful, you can open your app by clicking the "Open app" button in Heroku or using the provided URL.
+
+
+## Credits 
+
+[Stackoverflow](https://stackoverflow.com/questions/2084508/clear-terminal-in-python)
