@@ -15,6 +15,8 @@ Education: Hangman can be used as an educational tool to enhance language skills
 * After the name it gives you the option of havin a look at the rule
 * You are then provided with two options either to have a look at the rule book or  to start the game.
 * You are then provided with two options either to have a look at the rule book or  to start the game.
+
+  
 ### When you select to play 
 1. You'll see a series of dashes on the screen, representing the letters of the word.
 2. Guess one letter at a time by clicking or tapping on the corresponding letter on the on-screen or keyboard.
