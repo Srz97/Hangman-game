@@ -91,3 +91,5 @@ I encountered a bug while trying to display images in the README.md file. The im
 [Stackoverflow](https://stackoverflow.com/questions/2084508/clear-terminal-in-python)
 
 [Python For Everyone](https://www.youtube.com/@python-for-everyone)
+
+[Udemy](https://www.udemy.com/course/100-days-of-code/)
