@@ -88,7 +88,7 @@ I encountered a bug while trying to display images in the README.md file. The im
 
 ## Credits 
 
-My Mentor for ideas and help 
+My Mentor for ideas and help.
 
 [Stackoverflow](https://stackoverflow.com/questions/2084508/clear-terminal-in-python)
 
