@@ -1,4 +1,4 @@
-Online Hangman is an enjoyable game against the computer,played on a terminal based window.This is where you'll try to guess a secret word, letter by letter, while the computer tries to do the same and every wrong letter draws the  hangman one step closer to his fate. 
+Online Hangman is an enjoyable game against the computer, played on a terminal based window.This is where you'll try to guess a secret word, letter by letter, while the computer tries to do the same and every wrong letter draws the  hangman one step closer to his fate. 
  
  ![Image One](assets/images/image_two.png)
  
