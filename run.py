@@ -5,13 +5,13 @@ from words import words
 
 def display_welcome():
     print("Welcome to the thrilling world of online hangman!\n")
-    print("Alright, before we proceed, could you please grace me with your name?")
+    print("Before we proceed, may I take your name?")
 
 
 def get_player_name():
     name = input("Enter your name: ")
     if name.isalpha():
-        print(f"Hi {name}, let's play Hangman and see if you can crack the code!")
+        print(f"Hi {name}, let's play Hangman!")
     else:
         print("Invalid input. Please enter alphabetic characters only.")
 
@@ -105,7 +105,7 @@ def show_rules():
     print("1. The computer will randomly select a word for you to guess.")
     print("2. You can guess one letter at a time.")
     print("3. If the letter you guessed is in the word, it will be revealed.")
-    print("4. If the letter you guessed is not in the word, you will lose a life.")
+    print("4. If the guessed letter is not in the word, you will lose a life.")
     print("5. You have a total of 6 lives.")
     print("6. Your goal is to guess the word before you run out of lives.\n")
 
@@ -133,8 +133,7 @@ def play_game():
             continue
 
         guessed_letters.append(guess)
-
-        if guess in random_word:
+ if guess in random_word:
             print("Correct guess!")
         else:
             print("Incorrect guess!")
