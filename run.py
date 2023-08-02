@@ -133,7 +133,7 @@ def play_game():
             continue
 
         guessed_letters.append(guess)
- if guess in random_word:
+        if guess in random_word:
             print("Correct guess!")
         else:
             print("Incorrect guess!")
